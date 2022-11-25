@@ -7,4 +7,4 @@ class SearchSpider(scrapy.Spider):
     start_urls = ['http://www.gofundme.com/']
 
     def parse(self, response):
-        pass
+        print(response)
